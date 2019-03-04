@@ -1,0 +1,26 @@
+{
+  "name": "portal-auth-sdk",
+  "version": "1.0.0",
+  "description": "javascript SDK of portal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --display-error-details -p --config webpack.prod.config.js"
+  },
+  "keywords": [
+    "SDK"
+  ],
+  "author": "Verten",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "babel-loader": "^8.0.5",
+    "js-cookie": "^2.2.0",
+    "qs": "^6.6.0",
+    "url-join": "^4.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  }
+}
